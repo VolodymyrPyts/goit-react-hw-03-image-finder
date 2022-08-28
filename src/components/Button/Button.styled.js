@@ -1,20 +1,25 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const ButtonStyled = styled.button`
-  margin: auto;
+  margin-left: 50%;
   padding: 8px 16px;
   border-radius: 2px;
-  background-color: #3f51b5;
+  background: rgb(0, 20, 191);
+  background: linear-gradient(
+    0deg,
+    rgba(249, 238, 6, 0.8) 40%,
+    rgba(0, 20, 191, 0.8) 60%
+  );
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   display: inline-block;
-  color: #fff;
+  color: #000000;
   border: 0;
   text-decoration: none;
   cursor: pointer;
   font-family: inherit;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 1.2;
   font-style: normal;
   font-weight: 500;
   min-width: 180px;
